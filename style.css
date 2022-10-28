@@ -1,0 +1,30 @@
+.bg-lightGreen {
+  background-color: #07AB80;
+}
+
+.bg-magenta {
+  color: rgb(160, 27, 131);
+}
+
+.bg-hero {
+  background: rgba(23, 62, 84, .7) url(https://images.unsplash.com/photo-1487341290491-1081724e5844?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+  background-blend-mode: darken;
+  object-fit: cover;
+  height: 80vh;
+  width: 100%;
+}
+
+.box {
+  box-sizing: border-box;
+  width: 77%;
+  height: 169px;
+  left: 91px;
+  top: 368px;
+  background: #FFFFFF;
+  border: 1px solid rgba(91, 99, 110, 1);
+  border-radius: 3px;
+}
+
+.anotherBox {
+  height: 40vh;
+}
