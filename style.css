@@ -20,7 +20,7 @@
 }
 
 .bg-hero {
-  background: rgba(23, 62, 84, .4) url(https://media.discordapp.net/attachments/755703174362300497/1036079784683376681/20221029_185030.jpg?width=901&height=676);
+  background: rgba(23, 62, 84, .4) url(20221029_185030.jpg);
   background-blend-mode: darken;
   background-size: cover;
   background-repeat: no-repeat;
@@ -29,7 +29,7 @@
 }
 
 .pic-dal {
-  background: rgba(23, 62, 84, .4) url(https://media.discordapp.net/attachments/755703174362300497/1036073701994680380/Snapchat-1091545746.jpg?width=380&height=676);
+  background: rgba(23, 62, 84, .4) url(Snapchat-1091545746.jpg);
   background-blend-mode: darken;
   background-size: cover;
   background-repeat: no-repeat;
@@ -92,5 +92,16 @@
 @media (min-width: 992px) {
   .move-down {
     transform: translateY(5vh);
+  }
+}
+
+@media (max-width: 768px) {
+  .pic-dally {
+    background: rgba(23, 62, 84, .4) url(Screenshot_20210317-105509_Snapchat.jpg);
+    background-blend-mode: darken;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 615px;
   }
 }
