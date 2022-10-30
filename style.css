@@ -1,25 +1,41 @@
+.card:hover {
+  outline: 3px solid black;
+}
+
+.Freehand {
+  font-family: 'Freehand', cursive;
+}
+
 .bg-lightGreen {
   background-color: #07AB80;
 }
 
+.bg-grey {
+  background-color: rgba(167, 167, 167, 0.788);
+}
+
+
 .bg-magenta {
-  color: rgb(160, 27, 131);
+  background-color: rgb(160, 27, 131, 0);
 }
 
 .bg-hero {
-  background: rgba(23, 62, 84, .4) url(https://images.unsplash.com/photo-1487341290491-1081724e5844?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+  background: rgba(23, 62, 84, .4) url(https://media.discordapp.net/attachments/755703174362300497/1036079784683376681/20221029_185030.jpg?width=901&height=676);
   background-blend-mode: darken;
-  object-fit: cover;
-  height: 80vh;
-  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 615px;
 }
 
 .pic-dal {
-  background: rgba(23, 62, 84, .4) url(https://images.unsplash.com/photo-1487341290491-1081724e5844?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+  background: rgba(23, 62, 84, .4) url(https://media.discordapp.net/attachments/755703174362300497/1036073701994680380/Snapchat-1091545746.jpg?width=380&height=676);
   background-blend-mode: darken;
-  object-fit: scale-down;
-  height: 65vh;
-  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 360px;
+  height: 580px;
 }
 
 .box {
@@ -30,18 +46,51 @@
   top: 368px;
   background: #FFFFFF;
   border: 1px solid rgba(91, 99, 110, 1);
+}
+
+
+.heading-box {
+  width: 300px;
+  height: 502px;
+  border: 1px solid gray;
+  background-color: white;
   border-radius: 3px;
 }
 
-.anotherBox {
-  height: 40vh;
+.more-btn {
+  width: 115px;
+  height: 29px;
+  left: 1169px;
+  top: 1585px;
+  background: #07AB80;
+  border-radius: 5px;
 }
 
-.move-down {
-  transform: translateY(14vh);
-  min-height: 30vh
+.submit-btn {
+  width: 115px;
+  height: 29px;
+  left: 92px;
+  top: 604px;
+
+}
+
+.move-up {
+  transform: translateX(15vh);
+
 }
 
 .color-lightGreen {
   color: #07AB80;
+}
+
+@media (max-width: 768px) {
+  header {
+    position: fixed;
+  }
+}
+
+@media (min-width: 992px) {
+  .move-down {
+    transform: translateY(5vh);
+  }
 }
